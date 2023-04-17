@@ -8,4 +8,14 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    z=a
+    if z>b:
+        z=b
+    if z>c:
+        z=c
+    
+    return z
+a=int(input())
+b=int(input())
+c=int(input())
+print(main(a,b,c))
